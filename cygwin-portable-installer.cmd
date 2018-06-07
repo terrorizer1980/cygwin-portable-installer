@@ -44,7 +44,7 @@ set CYGWIN_MIRROR=http://linux.rz.ruhr-uni-bochum.de/download/cygwin
 set CYGWIN_USERNAME=root
 
 :: select the packages to be installed automatically via apt-cyg
-set CYGWIN_PACKAGES=bash-completion,bc,curl,expect,git,git-svn,gnupg,inetutils,mc,nc,openssh,openssl,perl,python,pv,ssh-pageant,subversion,unzip,vim,zip,zstd
+set CYGWIN_PACKAGES=bash-completion,bc,curl,expect,git,git-svn,gnupg,inetutils,lynx,mc,nc,openssh,openssl,perl,python,pv,ssh-pageant,subversion,unzip,vim,wget,zip,zstd,zsh
 
 :: if set to 'yes' the local package cache created by cygwin setup will be deleted after installation/update
 set DELETE_CYGWIN_PACKAGE_CACHE=yes
@@ -53,7 +53,7 @@ set DELETE_CYGWIN_PACKAGE_CACHE=yes
 set INSTALL_APT_CYG=yes
 
 :: if set to 'yes' the bash-funk adaptive Bash prompt (https://github.com/vegardit/bash-funk) will be installed automatically
-set INSTALL_BASH_FUNK=yes
+set INSTALL_BASH_FUNK=no
 
 :: if set to 'yes' testssl.sh (https://testssl.sh/) will be installed automatically
 set INSTALL_TESTSSL_SH=yes
